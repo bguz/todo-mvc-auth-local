@@ -22,7 +22,20 @@ A Simple ToDo App is built using the MVC Architecture, we have also implemented 
 
 # Packages/Dependencies used 
 
-bcrypt, connect-mongo, dotenv, ejs, express, express-flash, express-session, mongodb, mongoose, morgan, nodemon, passport, passport-local, validator
+bcrypt - encrypting all passwords, 
+connect-mongo - used to connect mongo, 
+dotenv - used to use secret environment variables (.env), 
+ejs - templating engine, 
+express - used to set up our server easily and quickly by adding an abstraction layers to node, 
+express-flash - flash is an extension of connect-flash with the ability to define a flash message and render it without redirecting the request, 
+express-session - used when we log in, saves information of the user, 
+mongodb - used to do stuff with mongodb, 
+mongoose - used to create schemas that mongodb use, 
+morgan - displays logs nicely, 
+nodemon - restarts the server automatically, 
+passport - handles authentication for us, 
+passport-local - user registers locally, we store in our db just between us and the user no google auth or github auth, 
+validator - used to send errors if information is not correct and to sanitize (prevent invalid passwords or sql injections).
 
 ---
 
