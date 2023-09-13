@@ -8,3 +8,13 @@ h1{
 .not{
     text-decoration: underline;
 }
+li {
+    padding: 10px 0;
+}
+.displayNone {
+    display: none;
+}
+.edit,
+.save {
+    cursor: pointer;
+}
